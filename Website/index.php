@@ -99,7 +99,7 @@
                             file_put_contents("dane.json", $json);
     
     
-                            header('Location: index.php');  
+                            echo "<script> window.location.href='index.php';</script>";
 
 
                            
