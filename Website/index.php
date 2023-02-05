@@ -81,7 +81,7 @@
                             $key = array_search($nazwa_gracza, $products['Players']);
                             
 
-                            echo $products['Players'][$key];
+                            
 
                             $products["Bans"][$last]['nick'] = $nazwa_gracza;
                             $products["Bans"][$last]['reason'] = $powod_bana;
