@@ -1,3 +1,36 @@
+<?php
+
+
+
+
+    if(isset($_POST['GraczeServ'])){
+
+
+
+
+            $last_2 = count($products["Players"]);
+
+            $json_data_2 = file_get_contents("dane.json");
+            $products_2 = json_decode($json_data_2,true);
+
+
+            $products_2["Players"][$last_2] = $_POST['GraczeServ'];
+
+            $json_2 = json_encode($products_2);
+
+
+            file_put_contents("dane.json", $json_2);
+        
+
+            
+
+    }
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
