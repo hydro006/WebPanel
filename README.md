@@ -1,4 +1,7 @@
-# WebPanel
+# WebPanel [BETA]
+
+![image](https://user-images.githubusercontent.com/124439381/216813637-48071a14-1bcc-43f1-bf05-3033367f37e6.png)
+
 WebPanel for broke protocol.
 
 It has a function to display list of active players (with option to ban with reason)
