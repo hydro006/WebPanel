@@ -1,0 +1,138 @@
+*{
+    padding: 0; margin: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Prompt&display=swap');
+
+.container{
+
+    background-color: #222f3e;
+    height: 100vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    
+}
+
+#tekst{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Prompt', sans-serif;
+
+    color:#c8d6e5;
+
+    text-align: center;
+
+    font-size: 5rem;
+
+    padding-top:40px;
+    padding-bottom: 15px;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Prompt', sans-serif;
+
+    color:#c8d6e5;
+
+    text-align: center;
+
+    font-size: 3.5rem;
+
+    padding-top: 10px;
+
+
+}
+
+.lista-graczy, .lista-graczy-banned{
+    
+    background-color: #8395a7;
+    margin: 25px;
+    height: 79vh;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    
+}
+
+table{
+    padding: 20px;
+    
+}
+
+table th{
+    height: 80px;
+}
+
+table th{
+    color:#c8d6e5;
+    font-size: 1.8rem;
+}
+
+table thead tr th{
+    
+    border: #576574 3px solid;
+}
+
+
+table tbody tr td{
+    height: 50px;
+    border: #576574 3px solid;
+}
+
+
+
+table tbody tr td{
+    color:#c8d6e5;
+    font-size: 1.3rem;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    height: auto; width: auto;
+    border-radius: 5px;
+    width: 95%;
+    height: 80%;
+    
+    background-color: red;
+
+    border: none;
+
+    color:#c8d6e5;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+
+
+    
+}
+
+input[type=text]{
+
+    height: auto; width: auto;
+    border-radius: 5px;
+    width: 95%;
+    height: 80%;
+    
+    text-align: center;
+
+    border: none;
+
+    color:black;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+
+
+    
+}
+
