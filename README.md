@@ -1,6 +1,7 @@
-<p align="center">
+
 # Broke Protocol Web Panel
-</p>
+
+
 
 ## Current Project Status
 
